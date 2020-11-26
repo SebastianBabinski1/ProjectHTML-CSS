@@ -1,0 +1,29 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  box-sizing: border-box;
+}
+
+navbar ul {
+  display: flex;
+  flex-direction: row;
+  border: 2px solid red;
+  justify-content: space-around;
+}
+
+navbar ul li {
+  background-color: skyblue;
+  padding: 5px 10px;
+}
+
+header {
+  margin: 5px 0px;
+}
+
+header img {
+  width: 100%;
+  height: auto;
+}
